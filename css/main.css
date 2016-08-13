@@ -1,8 +1,3 @@
-#profile  {
-  border: 0;
-  box-shadow: none;
-}
-
 p.description {
   font-size: 60%;
 }
@@ -37,4 +32,9 @@ span.tag:hover {
 
 a {
   color: #3498db !important;
+}
+
+.no-border-img {
+  border: 0 !important;
+  box-shadow: none !important;
 }
