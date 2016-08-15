@@ -24,6 +24,23 @@
 		</script>
 	</head>
 	<body>
+		<!--
+		<div id="menu-box">
+			<div id="first-item" class="menu-box-item"></div>
+			<div id="second-item" class="menu-box-item"></div>
+			<div id="third-item" class="menu-box-item"></div>
+			<div id="fourth-item" class="menu-box-item"></div>
+			<div id="fifth-item" class="menu-box-item"></div>
+			<div id="sixth-item" class="menu-box-item"></div>
+		</div> -->
+		<ul id="menu-box">
+			<li class="menu-box-item"></li>
+			<li class="menu-box-item"></li>
+			<li class="menu-box-item"></li>
+			<li class="menu-box-item"></li>
+			<li class="menu-box-item"></li>
+			<li class="menu-box-item"></li>
+		</ul>
 		<div class="reveal">
 			<div class="slides">
 				<section>
@@ -160,6 +177,29 @@
 					{ src: 'vendor/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
+
+			var box = document.getElementById("menu-box");
+
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+      	// event.previousSlide, event.currentSlide, event.indexh, event.indexv
+				 if (event.indexh == 3 && event.indexv > 0){
+					 box.style.visibility = "visible";
+				 } else {
+					 box.style.visibility = "hidden";
+				 }
+
+			} );
+
+			var ul = document.getElementById('menu-box');  // Parent
+
+			ul.addEventListener('click', function(e) {
+			    if (e.target.tagName === 'LI'){
+			      alert("teste" + e.target.id);  // Check if the element is a LI
+			    }
+
+					alert("teste" + e.target.id);
+			});
+
 		</script>
 	</body>
 </html>

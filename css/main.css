@@ -38,3 +38,20 @@ a {
   border: 0 !important;
   box-shadow: none !important;
 }
+
+#menu-box {
+  width: 40px;
+  height: 190px;
+  position: fixed;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-box-item{
+  border-radius: 50%;
+  background-color: #95a5a6;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
