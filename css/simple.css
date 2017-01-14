@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  background: #00303e; 
+  padding: 1%;
+}
+
+body, button, input, select, textarea, pre {
+  font-family: 'Conso', Courier New, monospace;
+  color: #f8f8f2; 
+}
+
+@font-face {
+  font-family: 'Conso';
+  src: url("Conso.woff") format("woff"), url("Conso.ttf") format("truetype");
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: 'Conso';
+  src: url("Conso-Italic.woff") format("woff"), url("Conso-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-stretch: normal; }
+
+.selected {
+  color: #00303e;
+  background: #0096c1; }
+
+.white {
+  color: #f8f8f2; }
+
+.grey {
+  color: #999999; }
+
+.blue {
+  color: #66d9ef; }
+
+.green {
+  color: #a6e22e; }
+
+.orange {
+  color: #fd971f; }
+
+.fuschia {
+  color: #ec007c; }
+
+.yellow {
+  color: #efe158; }
+
+.purple {
+  color: #ae81ff; }
+
+li {
+    margin-bottom: 2px;
+}
+
+li p {
+    margin: 0px;
+}
+
+.technologies-used {
+    display: inline;
+}
+
+.links {
+    color: orange;
+    display: inline;
+}
