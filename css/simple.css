@@ -66,3 +66,11 @@ li p {
     color: orange;
     display: inline;
 }
+
+a { 
+  color: inherit; 
+} 
+
+.tags {
+  font-size: 90%;
+}
