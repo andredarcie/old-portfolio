@@ -4,23 +4,9 @@ body {
   line-height: 18px;
   background: #00303e; 
   padding: 1%;
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
 }
-
-body, button, input, select, textarea, pre {
-  font-family: 'Conso', Courier New, monospace;
-  color: #f8f8f2; 
-}
-
-@font-face {
-  font-family: 'Conso';
-  src: url("Conso.woff") format("woff"), url("Conso.ttf") format("truetype");
-  font-style: normal;
-  font-stretch: normal; }
-@font-face {
-  font-family: 'Conso';
-  src: url("Conso-Italic.woff") format("woff"), url("Conso-Italic.ttf") format("truetype");
-  font-style: italic;
-  font-stretch: normal; }
 
 .selected {
   color: #00303e;
@@ -54,10 +40,6 @@ li {
     margin-bottom: 2px;
 }
 
-li p {
-    margin: 0px;
-}
-
 .technologies-used {
     display: inline;
 }
@@ -73,4 +55,27 @@ a {
 
 .tags {
   font-size: 90%;
+}
+
+h1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4, p {
+  vertical-align: top;
+  display: inline-block;
+}
+
+article {
+  margin-bottom: 10px;
+}
+
+article {
+  margin-left: 10px;
 }

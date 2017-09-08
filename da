@@ -1,0 +1,274 @@
+[33mcommit 5a63edae2edbd610ba1dfa0235eb06ad9acb13e6[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sun Mar 26 21:11:14 2017 -0300
+
+    Added multas e restricoes
+
+[33mcommit e9f12ced18a40eaf13b37ecaceb43f5ae93d6a24[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Thu Mar 16 20:35:30 2017 -0300
+
+    Added java language in hyperp
+
+[33mcommit 9241bbc777ef013ecd9224e4112d17acc65c8120[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sat Jan 21 11:13:32 2017 -0200
+
+    Removing firebase
+
+[33mcommit 9b7a2164ea50e8fa24366d42ad965f0852e66ce5[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Fri Jan 20 13:57:26 2017 -0200
+
+    Added head content to firebase test
+
+[33mcommit 0cdfeb1805ca66c452563ac1fbb1f0bb768f9273[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Fri Jan 20 13:54:09 2017 -0200
+
+    Testando o firebase
+
+[33mcommit 28ad53aa14863e68f26dbcad1e67d006fdb12a6a[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Thu Jan 19 18:52:38 2017 -0200
+
+    Added Poços Transit
+
+[33mcommit 675f308fdc171acb7d65c6058a48d05ccd99c07f[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Tue Jan 17 20:18:43 2017 -0200
+
+    Added hyper-p project
+
+[33mcommit 050a9ff9b2396381e48fd151d91d6b98c96821cd[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Mon Jan 16 11:36:09 2017 -0200
+
+    Added api for gtfs
+
+[33mcommit 74db15911846ed07453d5bbaac1352d5027f0322[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sun Jan 15 15:20:24 2017 -0200
+
+    Some changes in the text
+
+[33mcommit cbb66ad24d066ab79c4bcd804f4a36fca00507ae[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sat Jan 14 16:34:58 2017 -0200
+
+    Added title
+
+[33mcommit 5dedca25b6f0439879006bbd6e6e6f179cd749a2[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sat Jan 14 16:33:20 2017 -0200
+
+    Added simple version
+
+[33mcommit 2505a858886b139bc2c53ef20a7c410597c65cfa[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sun Nov 27 20:48:27 2016 -0200
+
+    Removing Contact Form JavaScript
+
+[33mcommit 4e389cb97276ad119c8c7a9987e9985dd9fd8b17[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sat Nov 26 09:19:35 2016 -0200
+
+    Removing unused file
+
+[33mcommit c44c41c8891e3a9c21ab1c06fea2a02233a869a7[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Thu Nov 24 22:19:25 2016 -0200
+
+    Fixing github link
+
+[33mcommit 7f128c839baf00266d72bdb24ddc86b1693622c2[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Mon Nov 21 04:48:17 2016 -0200
+
+    Added google analytics
+
+[33mcommit 0eef629942c3c625e0d560437addca6dd075a88e[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Thu Nov 17 13:45:53 2016 -0200
+
+    Fixing Detran SP in portfolio projects
+
+[33mcommit 99a60d847b3b64dccac79d876765305aaea0b625[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sun Nov 13 23:26:15 2016 -0200
+
+    Change the background color to blue
+
+[33mcommit 624e3d16867229d46abb293428cf481a0cc50c9c[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sun Nov 13 23:11:52 2016 -0200
+
+    Fixing technologies used in pocos transit app
+
+[33mcommit 098b4621b3750da6cf14b02242ea0f8bc0902251[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sun Nov 13 23:08:49 2016 -0200
+
+    Description on poços transit app
+
+[33mcommit 057b8fb1021459d1677a8186607f6588e0b75c71[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sun Nov 13 21:23:35 2016 -0200
+
+    Mobile Developer
+
+[33mcommit 67b833f279bea58b5709b2859ac65d37b0d04377[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sun Nov 13 21:18:41 2016 -0200
+
+    Fixing transit app image
+
+[33mcommit 7ae720a9763c9d479138a216f8298b37e4eda43d[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sun Nov 13 21:11:07 2016 -0200
+
+    Added new projects
+
+[33mcommit 18385600bb9a001a4ececaaaafcdb042f20b4fb1[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sat Nov 12 02:02:59 2016 -0200
+
+    Contact Me email address
+
+[33mcommit 1d2857eac2ef4a98a43b35dfaa96890743d01819[m
+Merge: 78987b8 7acb78d
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sat Nov 12 01:52:07 2016 -0200
+
+    Merge branch 'master' of https://github.com/AndreNDarcie/AndreNDarcie.github.io
+
+[33mcommit 78987b8e988b440a7c939ac6d7d3901a10376f7c[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Sat Nov 12 01:52:00 2016 -0200
+
+    Added github and linkedin links
+
+[33mcommit 7acb78d0e9ca18f36c65380e829753a16af4e731[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Fri Oct 14 14:22:19 2016 -0300
+
+    Update README.md
+
+[33mcommit 5de39917f288dbfedfb5ad21ba0a1a951a216420[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Fri Oct 14 14:20:01 2016 -0300
+
+    Update README.md
+
+[33mcommit 53c1e0b1b499f44b744339a32ce29076d5a5fd78[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Thu Oct 13 12:54:26 2016 -0300
+
+    Link to github in API for GTFS
+
+[33mcommit 2781cf5920ad886d2b4efdae46b4c0307bff51cb[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Wed Oct 12 14:52:27 2016 -0300
+
+    Fixing images for firewall and game list
+
+[33mcommit c08497188c3f45c0cbaea896f9ab2e6eaca018ba[m
+Merge: 7136faf bdd1c4f
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Wed Oct 12 14:50:00 2016 -0300
+
+    Merge branch 'master' of https://github.com/AndreNDarcie/AndreNDarcie.github.io
+
+[33mcommit 7136faf2ad3171ff309b5e3021f49b50ed2a8cee[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Wed Oct 12 14:49:36 2016 -0300
+
+    Fixing image and text for mobile
+
+[33mcommit bdd1c4f3781af674dcaea6a65127b047886d73c9[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Wed Oct 12 14:36:16 2016 -0300
+
+    Create README.md
+
+[33mcommit 46569dd3752aad4181f6e81ff691c292d9b3790a[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Wed Oct 12 13:30:45 2016 -0300
+
+    Source code button for gtfs-v
+
+[33mcommit 7ea49e3324f4265cc94df568cd41f370fb66cbeb[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Wed Oct 12 13:09:58 2016 -0300
+
+    Beatify index file
+
+[33mcommit 7bc5082c0910beda50d818226a682d4fb74b9984[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Wed Oct 12 12:57:47 2016 -0300
+
+    Fixing images
+
+[33mcommit a2fb20be17570fb965f1bea71b24a0815a142b65[m
+Author: André N. Darcie <andrendarcie@gmail.com>
+Date:   Wed Oct 12 12:49:59 2016 -0300
+
+    New theme
+
+[33mcommit 5542518ac40471565a241ed05fc71ea9b1d85e5b[m
+Author: André N. Darcie <andre_darcie@hotmail.com>
+Date:   Mon Aug 15 17:29:21 2016 -0300
+
+    Added simple html menu
+
+[33mcommit c965b01f6e5f0635357b12277cfdf027cb610341[m
+Author: André N. Darcie <andre_darcie@hotmail.com>
+Date:   Sun Aug 14 13:13:29 2016 -0300
+
+    Description for game list
+
+[33mcommit 379899f3286b52929d1e536d3c2a048d6343ad52[m
+Author: André N. Darcie <andre_darcie@hotmail.com>
+Date:   Sun Aug 14 13:12:06 2016 -0300
+
+    Description for tiny firewall
+
+[33mcommit b98c668c73476a73504a1e94ad55bff925e7f072[m
+Author: André N. Darcie <andre_darcie@hotmail.com>
+Date:   Sun Aug 14 13:11:16 2016 -0300
+
+    Description for startup manager
+
+[33mcommit b269cdd7cc59ef19e5618ee5081fb8a328c7f3fc[m
+Author: André N. Darcie <andre_darcie@hotmail.com>
+Date:   Sun Aug 14 13:10:05 2016 -0300
+
+    Description for hyper p
+
+[33mcommit 9587e50fed042d19d31964934ec38b1e500eadc9[m
+Author: André N. Darcie <andre_darcie@hotmail.com>
+Date:   Sun Aug 14 13:08:48 2016 -0300
+
+    Description for api node gtfs
+
+[33mcommit 479acbecf5550b9ad978e82c677222c53b925f2e[m
+Author: André N. Darcie <andre_darcie@hotmail.com>
+Date:   Sun Aug 14 13:03:28 2016 -0300
+
+    Navigate down arrow
+
+[33mcommit 9c2e59a699a722afdb3ab699de86d4ef5d7eaf17[m
+Author: André N. Darcie <andre_darcie@hotmail.com>
+Date:   Sat Aug 13 19:13:42 2016 -0300
+
+    Technologies used for game list
+
+[33mcommit 7a6ea6d879f5dae4bb567bab88f218bb3aedccf2[m
+Author: André N. Darcie <andre_darcie@hotmail.com>
+Date:   Sat Aug 13 19:12:57 2016 -0300
+
+    Technologies used for tiny firewall
+
+[33mcommit 17c8e4d0caa981a7a9d5d6bb9e2fbd374071bf6a[m
+Author: André N
