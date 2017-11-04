@@ -9,349 +9,106 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="green">André N. Darcie</h1>
-        <h2 class="purple">Web & Mobile Developer - Software Engineer</h2>
-    </header>
-    <section>
-    <section>
-        <h3 class="grey">// About me</h3>
-        <p>I'm a computer scientist working as a freelancer. Looking for job opportunities.</p>
-    </section>
-    <section>
-        <h3 class="grey">// Portfolio</h3>
-        <article>
-            <header>
-                <h4 class="fuschia">The Super Tiny Firewall</h4>
-                <p> - It's a simple firewall made from scratch, written in C language for Linux with a web interface.</p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">AngularJS</span>, 
-                    <span class="blue">C</span> and 
-                    <span class="blue">JavaEE</span>
-                </p>
-                <p class="links">[ <a href="http://andredarcie.com/img/portfolio/safe.PNG" target="_blank">Image</a> ]</p>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Api for GTFS</h4>
-                <p> - It is a NodeJS API able to provide data in standard GTFS.</p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">NodeJS</span>, 
-                    <span class="blue">ExpressJS</span> and 
-                    <span class="blue">MongoDB</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/node-gtfs-api" target="_blank">Source Code</a> ]</p>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Hyper Presentation</h4>
-                <p>
-                        - Hyper Presentation is a multimedia content presentation system using smart-TV and interaction with smartphone. 
-                    Award-winning best project at my university
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">JavaFX</span>, 
-                    <span class="blue">Java</span> and 
-                    <span class="blue">Android</span>
-                </p>
-                <p class="links">[ <a href="http://andredarcie.com/img/portfolio/hyper-p.png" target="_blank">Image</a> ]</p>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">GTFS Visualizer</h4>
-                <p>
-                    - It's a library that can draw lines for public transport using leaflet framework based on JSON data in standard GTFS.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Bootstrap</span>, 
-                    <span class="blue">Leaftlet</span> and 
-                    <span class="blue">Jquery</span>
-                </p>
-                <p class="links">[ Google Play, Source Code ]</p>
-            </li>
+    <div id='app'>
+        <header>
+            <h1 class="green">André N. Darcie</h1>
+            <h2 class="purple">Web & Mobile Developer - Software Engineer</h2>
+        </header>
+        <section>
+        <section>
+            <h3 class="grey">// About me</h3>
+            <p>I'm a computer scientist working as a freelancer. Looking for job opportunities.</p>
         </section>
-        </article>
+        <section style="width: 50%">
+            <span v-on:click="clickAll()" class="blue" style="display: inline;">All</span>
+            <ul style="display: inline;">
+                <li v-on:click="clickTag(tag)" class="blue" v-for="tag in tags" style="display: inline;">
+                    {{ tag }}
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3 class="grey">// Portfolio</h3>
+            <div>
+                <article v-for="project in projects">
+                    <header>
+                        <h4 class="fuschia">{{ project.title }}</h4>
+                        <p>
+                            -  {{ project.description }}
+                        </p>
+                    </header>
+                    <section>
+                        <h5 class="technologies-used"> Technologies used:</h5>
+                        <ul style="display: inline;">
+                            <li class="blue" v-for="tag in project.tags" style="display: inline;">
+                                {{ tag }}
+                            </li>
+                        </ul>
+                        <ul style="display: inline;">
+                            <li v-for="link in project.links" style="display: inline;">
+                                <span class="links">
+                                    [ <a v-bind:href="link.url" target="_blank"> {{ link.label }}</a> ]
+                                </span>
+                            </li>
+                        </ul>
+                    </section>
                 </article>
-            <article>
-            <header>
-                <h4 class="fuschia">C# Simple Guide</h4>
-                <p>
-                    - Discovering csharp through code samples.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Readme.md</span>, 
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/csharp-guide" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Conceptual Art Unity</h4>
-                <p>
-                    - A simple example of conceptual art made in unity.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">C#</span> and
-                    <span class="blue">Unity</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/conceptual-art-unity" target="_blank">Github</a>,
-                                   <a href="http://andredarcie.github.io/conceptual-art-unity/" target="_blank">Live</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Instagram like on rails</h4>
-                <p>
-                    - Is a instagram like site make with Ruby on Rails.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Ruby On Rails</span>,
-                    <span class="blue">Bootstrap Sass</span>,
-                    <span class="blue">Devise</span>,
-                    <span class="blue">Paperclip</span> and
-                    <span class="blue">Image Magick</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/instagram-like-on-rails" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Simple Asp Net Core 2: Todo App</h4>
-                <p>
-                    - Simple asp net core todo app based on LittleAspNetCoreBook
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">.Net Core</span> and
-                    <span class="blue">C#</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/simple-asp-net-core-2-todo-app" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">2D Roguelike Game</h4>
-                <p>
-                    - 2D game created in Unity 5
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">C#</span> and 
-                    <span class="blue">Unity</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/2d-roguelike-game-unity" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">History of Video Games</h4>
-                <p>
-                    -  Timeline containing a list of games that have consistently been ranked among the best by video game jornalists, divided by generations.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Javascript</span>,
-                    <span class="blue">VueJS</span> and 
-                    <span class="blue">CSS</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/history-of-video-games" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Catho Crawler</h4>
-                <p>
-                    -  NodeJS Crawler for Catho based on request and cheerio.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Javascript</span>,
-                    <span class="blue">Heroku</span> and 
-                    <span class="blue">NodeJS</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/catho-crawler" target="_blank">Github</a>,
-                                   <a href="https://catho-crawler.herokuapp.com/" target="_blank">Heroku</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Mysterious Game</h4>
-                <p>
-                    -  TOP SECRET
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Javascript</span> and 
-                    <span class="blue">CSS</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/mysterious-game" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Get Out Game</h4>
-                <p>
-                    -  Simple player movement and animation with Phaser.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Javascript</span> and 
-                    <span class="blue">Phaser</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/get-out-game" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">My First Web Site</h4>
-                <p>
-                    -  This was the first web site I created, it was here that I learned HTML and CSS.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Javascript</span> and 
-                    <span class="blue">HTML</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/my-first-web-site" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Shopping Cart App</h4>
-                <p>
-                    -  Shopping Cart app make with Ruby on Rails.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Ruby on Rails</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/ruby-on-rails-shopping-cart" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Awesome GTFS</h4>
-                <p>
-                    -  A collection of awesome GTFS libraries, resources and other things.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Readme.md</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/awesome-gtfs" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Ionic Weather App</h4>
-                <p>
-                    -  App that discovers temperature based on user position.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Javascript</span>,
-                    <span class="blue">Ionic</span> and 
-                    <span class="blue">NodeJS</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/ionic-weather-app" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Mobile Public Transport App</h4>
-                <p>
-                    -  Aplicativo móvel, construído com Phonegap para visualização e planejamento de linhas de ônibus para a cidade de Poços de Caldas, Minas Gerais.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Javascript</span> and
-                    <span class="blue">Phonegap</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/mobile-public-transport" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-        <article>
-            <header>
-                <h4 class="fuschia">Ruby On Rails Simple Blog</h4>
-                <p>
-                    -  This project is a blog made based on the official getting started with rails guide.
-                </p>
-            </header>
-            <section>
-                <h5 class="technologies-used">Technologies used:</h5>
-                <p>
-                    <span class="blue">Javascript</span> and
-                    <span class="blue">Ruby on Rails</span>
-                </p>
-                <p class="links">[ <a href="https://github.com/andredarcie/ruby-on-rails-simple-blog" target="_blank">Github</a> ]</p>
-            </li>
-            </section>
-        </article>
-    </section>
+            </div>
+        </section>
+    </div>
     <footer>
         <h3 class="grey">// Contact Me <h3>
         <p><span class="purple">[ andrendarcie@gmail.com, github.com/andredarcie ]</span></p>
     </footer>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
+    <script src="data.js"></script>
+    <script>
 
+    var app = new Vue({
+        el: '#app',
+        data: {
+            projects: projects,
+            tags: []
+        },
+        methods: {
+            getTags: function () {
+                for(var i = 0; i < projects.length; i++) {
+                    tags = projects[i].tags;
+                    
+                    for (var x = 0; x < tags.length; x++){
+                        var tag = tags[x];
+
+                        this.tags.push(tag);
+                    }
+                }
+
+                // Unique values in an array
+                this.tags = Array.from(new Set(this.tags));
+            },
+            clickTag: function (event) {    
+                var filtredProjects = [];
+                for(var i = 0; i < projects.length; i++) {
+                    tags = projects[i].tags;
+                    
+                    for (var x = 0; x < tags.length; x++){
+                        var tag = tags[x];
+
+                        if(tag === event){
+                            filtredProjects.push(projects[i]);
+                        }
+                    }
+                }
+
+                this.projects = filtredProjects;
+            },
+            clickAll: function (){
+                this.projects = projects;
+            }
+        }
+    });
+
+    app.getTags();
+    
+    </script>
+</body>
 </html>
