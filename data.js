@@ -33,6 +33,7 @@ var projects = [
         title: 'Api for GTFS',
         description: 'NodeJS API able to provide data in GTFS standard.',
         tags: [
+            'Javascript',
             'NodeJS',
             'ExpressJS',
             'MongoDB'
