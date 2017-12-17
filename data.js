@@ -292,5 +292,31 @@ var projects = [
                 label: 'Github'
             }
         ]
+    },
+    {
+        title: 'Insomnia - Fear of the unknown',
+        description: '2D Horror game',
+        tags: [
+            'Ruby'
+        ],
+        links: [
+            {
+                url: 'http://andredarcie.com/insomnia.html',
+                label: 'Home page'
+            }
+        ]
+    },
+    {
+        title: 'Brians Mansion',
+        description: '2D puzzle game',
+        tags: [
+            'Ruby'
+        ],
+        links: [
+            {
+                url: 'http://andredarcie.com/brians-mansion',
+                label: 'Home page'
+            }
+        ]
     }
 ];
