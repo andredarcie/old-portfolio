@@ -20,41 +20,39 @@
             <h3 class="grey">// About me</h3>
             <p>I'm a computer scientist working as a freelancer. Looking for job opportunities.</p>
         </section>
-        <section style="width: 50%">
-            <span v-on:click="clickAll()" class="blue" style="display: inline;">All</span>
+        <section class="tags">
+                <h3 class="grey">// Tags</h3>
+            <span v-on:click="clickAll()" class="blue tag" style="display: inline;">All</span>
             <ul style="display: inline;">
-                <li v-on:click="clickTag(tag)" class="blue" v-for="tag in tags" style="display: inline;">
+                <li v-on:click="clickTag(tag)" class="blue tag" v-for="tag in tags" style="display: inline;">
                     {{ tag }}
                 </li>
             </ul>
         </section>
         <section>
             <h3 class="grey">// Portfolio</h3>
-            <div>
-                <article v-for="project in projects">
-                    <header>
-                        <h4 class="fuschia">{{ project.title }}</h4>
-                        <p>
-                            -  {{ project.description }}
-                        </p>
-                    </header>
-                    <section>
-                        <h5 class="technologies-used"> Technologies used:</h5>
-                        <ul style="display: inline;">
-                            <li class="blue" v-for="tag in project.tags" style="display: inline;">
-                                {{ tag }}
-                            </li>
-                        </ul>
-                        <ul style="display: inline;">
-                            <li v-for="link in project.links" style="display: inline;">
-                                <span class="links">
-                                    [ <a v-bind:href="link.url" target="_blank"> {{ link.label }}</a> ]
-                                </span>
-                            </li>
-                        </ul>
-                    </section>
-                </article>
-            </div>
+            <article class="project" v-for="project in projects">
+                <header>
+                    <h4 class="fuschia">{{ project.title }}</h4>
+                    <p>
+                        -  {{ project.description }}
+                    </p>
+                </header>
+                <section>
+                    <ul style="display: inline;">
+                        <li class="blue tag" v-for="tag in project.tags" style="display: inline;">
+                            {{ tag }}
+                        </li>
+                    </ul>
+                    <ul style="display: inline;">
+                        <li v-for="link in project.links" style="display: inline;">
+                            <span class="links">
+                                [ <a v-bind:href="link.url" target="_blank"> {{ link.label }}</a> ]
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+            </article>
         </section>
     </div>
     <footer>
