@@ -95,7 +95,8 @@ var projects = [
         description: 'A simple example of conceptual art made in unity.',
         tags: [
             'C#',
-            'Unity'
+            'Unity',
+            'Game'
         ],
         links: [
             {
@@ -144,7 +145,8 @@ var projects = [
         description: '2D game created in Unity 5',
         tags: [
             'C#',
-            'Unity'
+            'Unity',
+            'Game'
         ],
         links: [
             {
@@ -197,7 +199,8 @@ var projects = [
         tags: [
             'Javascript',
             'Heroku',
-            'NodeJS'
+            'NodeJS',
+            'Game'
         ],
         links: [
             {
@@ -215,7 +218,8 @@ var projects = [
         description: 'Simple player movement and animation with Phaser.',
         tags: [
             'Javascript',
-            'Phaser'
+            'Phaser',
+            'Game'
         ],
         links: [
             {
@@ -297,7 +301,8 @@ var projects = [
         title: 'Insomnia - Fear of the unknown',
         description: '2D Horror game',
         tags: [
-            'Ruby'
+            'Ruby',
+            'Game'
         ],
         links: [
             {
@@ -310,7 +315,8 @@ var projects = [
         title: 'Brians Mansion',
         description: '2D puzzle game',
         tags: [
-            'Ruby'
+            'Ruby',
+            'Game'
         ],
         links: [
             {
