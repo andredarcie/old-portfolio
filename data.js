@@ -215,10 +215,9 @@ var projects = [
     },
     {
         title: 'Get Out Game',
-        description: 'Simple player movement and animation with Phaser.',
+        description: 'Super simple survival game.',
         tags: [
             'Javascript',
-            'Phaser',
             'Game'
         ],
         links: [
