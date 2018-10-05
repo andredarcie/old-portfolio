@@ -325,7 +325,7 @@ var projects = [
         ]
     },
     {
-        title: 'Life is undefined',
+        title: 'Text based game',
         description: 'Simple text based game',
         tags: [
             'C#',
@@ -333,7 +333,7 @@ var projects = [
         ],
         links: [
             {
-                url: 'https://github.com/andredarcie/life-is-undefined',
+                url: 'https://github.com/andredarcie/text-based-game',
                 label: 'Github'
             }
         ]
