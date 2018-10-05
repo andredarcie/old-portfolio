@@ -194,21 +194,19 @@ var projects = [
         ]
     },
     {
-        title: 'Mysterious Game',
-        description: 'Top Secret.',
+        title: 'Life is undefined',
+        description: 'Simple web based game.',
         tags: [
             'Javascript',
-            'Heroku',
-            'NodeJS',
             'Game'
         ],
         links: [
             {
-                url: 'https://github.com/andredarcie/mysterious-game',
+                url: 'https://github.com/andredarcie/life-is-undefined',
                 label: 'Github'
             },
             {
-                url: 'http://andredarcie.com/mysterious-game/',
+                url: 'http://andredarcie.com/life-is-undefined/',
                 label: 'Demo'
             }
         ]
