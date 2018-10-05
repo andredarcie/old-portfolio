@@ -324,5 +324,19 @@ var projects = [
                 label: 'Home page'
             }
         ]
+    },
+    {
+        title: 'Life is undefined',
+        description: 'Simple text based game',
+        tags: [
+            'C#',
+            'Game'
+        ],
+        links: [
+            {
+                url: 'https://github.com/andredarcie/life-is-undefined',
+                label: 'Github'
+            }
+        ]
     }
 ];
