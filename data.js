@@ -204,11 +204,11 @@ var projects = [
         ],
         links: [
             {
-                url: 'https://github.com/andredarcie/catho-crawler',
+                url: 'https://github.com/andredarcie/mysterious-game',
                 label: 'Github'
             },
             {
-                url: 'https://catho-crawler.herokuapp.com/',
+                url: 'http://andredarcie.com/mysterious-game/',
                 label: 'Demo'
             }
         ]
