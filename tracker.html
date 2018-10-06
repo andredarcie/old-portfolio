@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="font-awesome/css/font-awesome.min.css" >
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/simple.css" rel="stylesheet" type="text/css">
+    <style>
+        .category {
+            cursor: pointer;
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='app'>
+        <h1 class="green">Tracker</h1>
+        <div v-for="category in list">
+            <h2 class="fuschia category" v-on:click="category.show = !category.show" > <span v-if="category.show"> [-]</span> <span v-else> [+]</span> {{ category.displayName }}</h2> 
+            <div name="fade"></div>
+                <div v-if="category.show" v-for="year in category.list">
+                    <p class="grey">{{ year.year }}</p>
+                    <div v-for="item in year.list">
+                        <p><span class="orange">{{ drawScore(item.score) }}</span> {{ item.name }}</p>
+                    </div>
+                    <div v-if="year.todoList != undefined && year.todoList.length > 0">
+                        <p class="grey"> To-Do </p>
+                        <div v-for="todoItem in year.todoList">
+                            <p> {{ todoItem.name }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3 class="grey">// Contact Me <h3>
+        <p><span class="purple">[ andrendarcie@gmail.com, github.com/andredarcie ]</span></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
+    <script src="tracker-data.js"></script>
+    <script>
+
+    var app = new Vue({
+      el: '#app',
+      data: {
+        list: trackerData
+      },
+      methods: {
+        drawScore: function (score){
+          switch(score){
+                 case 1:
+                  return "✮";
+                 break;
+                 case 2:
+                  return "✮✮";
+                 break;
+                 case 3:
+                  return "✮✮✮";
+                 break;
+          }
+        }
+      }
+    });
+    
+    </script>
+</body>
+</html>
