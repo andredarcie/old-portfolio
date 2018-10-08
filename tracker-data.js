@@ -10,12 +10,7 @@ var trackerData = [{
         }, {
             score: 2,
             name: "Call of Duty 4: Modern Warfare"
-        }],
-        todoList: [
-            {
-                name: "Braid"
-            }
-        ]
+        }]
     }, {
         year: "2012",
         list: [{
@@ -25,7 +20,15 @@ var trackerData = [{
             score: 2,
             name: "Call of Duty 4: Modern Warfare"
         }]
-    }]
+    }],
+    todo: {
+        displayName: "To play",
+        list: [
+            {
+                name: "Braid"
+            }
+        ]
+    }
 },
 {
     type: "movies",

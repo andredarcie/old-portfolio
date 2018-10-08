@@ -22,17 +22,17 @@
         <h1 class="green">Tracker</h1>
         <div v-for="category in list">
             <h2 class="fuschia category" v-on:click="category.show = !category.show" > <span v-if="category.show"> [-]</span> <span v-else> [+]</span> {{ category.displayName }}</h2> 
-            <div name="fade"></div>
+            <div name="fade">
                 <div v-if="category.show" v-for="year in category.list">
                     <p class="grey">{{ year.year }}</p>
                     <div v-for="item in year.list">
                         <p><span class="orange">{{ drawScore(item.score) }}</span> {{ item.name }}</p>
                     </div>
-                    <div v-if="year.todoList != undefined && year.todoList.length > 0">
-                        <p class="grey"> To-Do </p>
-                        <div v-for="todoItem in year.todoList">
-                            <p> {{ todoItem.name }}</p>
-                        </div>
+                </div>
+                <div v-if="category.show && category.todo != undefined && category.todo.list.length > 0">
+                    <p class="grey"> {{ category.todo.displayName }} </p>
+                    <div v-for="todoItem in category.todo.list">
+                        <p> {{ todoItem.name }}</p>
                     </div>
                 </div>
             </div>
