@@ -4,7 +4,8 @@ var projects = [
         description: 'This project is a blog made based on the official getting started with rails guide.',
         tags: [
             'Javascript',
-            'Ruby on Rails'
+            'Ruby on Rails',
+            'Web'
         ],
         links: [
             {
@@ -20,7 +21,8 @@ var projects = [
             'AngularJS',
             'C',
             'JavaEE',
-            'Linux'
+            'Linux',
+            'Web'
         ],
         links: [
             {
@@ -36,7 +38,8 @@ var projects = [
             'Javascript',
             'NodeJS',
             'ExpressJS',
-            'MongoDB'
+            'MongoDB',
+            'Web'
         ],
         links: [
             {
@@ -51,7 +54,9 @@ var projects = [
         tags: [
             'JavaFX',
             'Java',
-            'Android'
+            'Android',
+            'Desktop',
+            'Mobile'
         ],
         links: [
             {
@@ -66,7 +71,8 @@ var projects = [
         tags: [
             'Bootstrap',
             'Leaftlet ',
-            'Jquery'
+            'Jquery',
+            'Web'
         ],
         links: [
             {
@@ -117,7 +123,8 @@ var projects = [
             'Bootstrap Sass',
             'Devise',
             'Paperclip',
-            'Image Magick'
+            'Image Magick',
+            'Web'
         ],
         links: [
             {
@@ -131,7 +138,8 @@ var projects = [
         description: 'Simple asp net core todo app based on LittleAspNetCoreBook.',
         tags: [
             '.Net Core',
-            'C#'
+            'C#',
+            'Web'
         ],
         links: [
             {
@@ -161,7 +169,8 @@ var projects = [
         tags: [
             'Javascript',
             'VueJS',
-            'CSS'
+            'CSS',
+            'Web'
         ],
         links: [
             {
@@ -180,7 +189,8 @@ var projects = [
         tags: [
             'Javascript',
             'Heroku',
-            'NodeJS'
+            'NodeJS',
+            'Web'
         ],
         links: [
             {
@@ -230,7 +240,8 @@ var projects = [
         description: 'This was the first web site I created, it was here that I learned HTML and CSS.',
         tags: [
             'Javascript',
-            'HTML'
+            'HTML',
+            'Web'
         ],
         links: [
             {
@@ -243,7 +254,8 @@ var projects = [
         title: 'Shopping Cart App',
         description: 'Shopping Cart app make with Ruby on Rails.',
         tags: [
-            'Ruby on Rails'
+            'Ruby on Rails',
+            'Web'
         ],
         links: [
             {
@@ -271,7 +283,8 @@ var projects = [
         tags: [
             'Ionic',
             'Javascript',
-            'NodeJS'
+            'NodeJS',
+            'Mobile'
         ],
         links: [
             {
@@ -285,7 +298,8 @@ var projects = [
         description: 'Aplicativo móvel, construído com Phonegap para visualização e planejamento de linhas de ônibus para a cidade de Poços de Caldas, Minas Gerais.',
         tags: [
             'Javascript',
-            'Phonegap'
+            'Phonegap',
+            'Mobile'
         ],
         links: [
             {
