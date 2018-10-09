@@ -335,5 +335,20 @@ var projects = [
                 label: 'Github'
             }
         ]
+    },
+    {
+        title: 'Startup manager',
+        description: 'It is a game for managing a startup',
+        tags: [
+            'C#',
+            'SQLite',
+            'Game'
+        ],
+        links: [
+            {
+                url: 'http://andredarcie.com/img/portfolio/game.png',
+                label: 'Image'
+            }
+        ]
     }
 ];
