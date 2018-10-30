@@ -3,13 +3,19 @@ var trackerData = [{
     displayName: "Video games",
     show: false,
     list: [{
-        year: "2011",
+        year: "2005",
         list: [{
             score: 1,
-            name: "Braid"
+            name: "Taz Mania"
         }, {
             score: 2,
-            name: "Call of Duty 4: Modern Warfare"
+            name: "Shadow Dancer"
+        }, {
+            score: 1,
+            name: "Double Dragon"
+        }, {
+            score: 1,
+            name: "Double Dragon 2"
         }]
     }, {
         year: "2012",
@@ -35,13 +41,44 @@ var trackerData = [{
     displayName: "Movies",
     show: false,
     list: [{
-        year: "2011",
+        year: "2012",
         list: [{
-            score: 2,
+            score: 3,
+            name: "The Shawshank Redemption"
+        }, {
+            score: 3,
             name: "The Godfather"
         }, {
             score: 3,
-            name: "City of god"
+            name: "The Godfather: Part II"
+        }, {
+            score: 3,
+            name: "The Dark Knight"
+        }, {
+            score: 2,
+            name: "12 Angry Men"
+        }, {
+            score: 2,
+            name: "Schindler's List"
+        }, {
+            score: 2,
+            name: "The Lord of the Rings: The Return of the King"
+        }, {
+            score: 2,
+            name: "Pulp Fiction"
+        }, {
+            score: 2,
+            name: "The Good, the Bad and the Ugly"
+        }, {
+            score: 2,
+            name: "Fight Club"
+        }]
+    },
+    {
+        year: "2018",
+        list: [{
+            score: 2,
+            name: "No Country for Old Men"
         }]
     }]
 },
