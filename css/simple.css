@@ -8,10 +8,6 @@ body {
   color: white;
 }
 
-.selected {
-  color: #00303e;
-  background: #0096c1; }
-
 .white {
   color: #f8f8f2; }
 
@@ -93,7 +89,7 @@ article {
   margin: 0 1px 0 1px;
   color: #66b3ef;
   padding-left: 2px;
-  border: 1px solid #66b3ef;
+  border: 1px solid #2d6997;
 }
 
 .tag:hover {
@@ -101,6 +97,11 @@ article {
   border-color: #66caef;
 }
 
+.selected {
+  color: #66caef;
+  border-color: #66caef;
+}
+
 .project {
-  margin: 0px;
+  margin: 0 0 10px 0;
 }

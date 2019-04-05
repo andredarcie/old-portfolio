@@ -102,7 +102,7 @@ var projects = [
         tags: [
             'C#',
             'Unity',
-            'Game'
+            'Games'
         ],
         links: [
             {
@@ -121,9 +121,6 @@ var projects = [
         tags: [
             'Ruby on Rails',
             'Bootstrap Sass',
-            'Devise',
-            'Paperclip',
-            'Image Magick',
             'Web'
         ],
         links: [
@@ -154,7 +151,7 @@ var projects = [
         tags: [
             'C#',
             'Unity',
-            'Game'
+            'Games'
         ],
         links: [
             {
@@ -208,7 +205,7 @@ var projects = [
         description: 'Simple web based game.',
         tags: [
             'Javascript',
-            'Game'
+            'Games'
         ],
         links: [
             {
@@ -226,7 +223,7 @@ var projects = [
         description: 'Super simple survival game.',
         tags: [
             'Javascript',
-            'Game'
+            'Games'
         ],
         links: [
             {
@@ -313,7 +310,7 @@ var projects = [
         description: '2D Horror game',
         tags: [
             'Ruby',
-            'Game'
+            'Games'
         ],
         links: [
             {
@@ -327,7 +324,7 @@ var projects = [
         description: '2D puzzle game',
         tags: [
             'Ruby',
-            'Game'
+            'Games'
         ],
         links: [
             {
@@ -341,7 +338,7 @@ var projects = [
         description: 'Simple text based game',
         tags: [
             'C#',
-            'Game'
+            'Games'
         ],
         links: [
             {
@@ -356,7 +353,7 @@ var projects = [
         tags: [
             'C#',
             'SQLite',
-            'Game'
+            'Games'
         ],
         links: [
             {
